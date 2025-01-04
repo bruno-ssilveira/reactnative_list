@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+# To Do List
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um aplicativo de lista de tarefas simples desenvolvido em React Native utilizando o Expo. Ele permite que os usuários adicionem, visualizem e excluam tarefas de forma prática e organizada.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+- Adicionar novas tarefas
+- Listar tarefas existentes
+- Excluir tarefas concluídas
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Requisitos
 
-   ```bash
-    npx expo start
-   ```
+Certifique-se de ter os seguintes softwares instalados em sua máquina:
 
-In the output, you'll find options to open the app in a
+- [Node.js](https://nodejs.org/) (versão recomendada: LTS)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Um simulador Android (Android Studio) ou o aplicativo Expo Go no seu celular
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Como rodar o projeto?
 
-## Get a fresh project
-
-When you're ready, run:
+### Passo 1: Clonar o repositório
 
 ```bash
-npm run reset-project
+git clone https://github.com/bruno-ssilveira/reactnative_list.git
+cd reactnative_list
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Passo 2: Instalar as dependências
 
-## Learn more
+Execute o comando abaixo para instalar as dependências do projeto:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Passo 3: Iniciar o servidor Expo
 
-## Join the community
+Inicie o servidor do Expo com o seguinte comando:
 
-Join our community of developers creating universal apps.
+```bash
+expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Testar o aplicativo
+
+### 1. No celular (usando o Expo Go)
+
+1. Instale o aplicativo **Expo Go** na [Google Play Store](https://play.google.com/store) ou na [App Store](https://apps.apple.com).
+2. No terminal, após rodar o comando `expo start`, você verá um QR Code.
+3. Abra o aplicativo Expo Go no celular e escaneie o QR Code.
+4. O aplicativo será carregado no seu celular.
+
+### 2. No simulador Android
+
+1. Certifique-se de ter o Android Studio configurado e um dispositivo virtual (AVD) rodando.
+2. No terminal, pressione a tecla **a** enquanto o servidor Expo estiver rodando.
+3. O Expo abrirá automaticamente o aplicativo no simulador.
+
+---
+
+## Tecnologias utilizadas
+
+- **React Native**
+- **TypeScript**
+- **Node.js**
+- **Expo**
+
+---
+
+## Contribuindo
+
+Sinta-se à vontade para contribuir com o projeto! Crie uma branch, faça suas alterações e abra um pull request. 
+
+1. Crie uma branch: `git checkout -b minha-branch`
+2. Faça suas alterações e comite: `git commit -m "Minha contribuição"`
+3. Faça o push: `git push origin minha-branch`
+4. Abra um pull request na página do repositório.
+
+---
+
+## Contato
+
+Caso tenha dúvidas ou sugestões, entre em contato:
+
+- **Email**: bruno.englishprog@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/bruno-santos-silveira/
