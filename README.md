@@ -1,11 +1,12 @@
 # To Do List
 
-Este é um aplicativo de lista de tarefas simples desenvolvido em React Native utilizando o Expo. Ele permite que os usuários adicionem, visualizem e excluam tarefas de forma prática e organizada.
+Este é um aplicativo de lista de tarefas simples desenvolvido em React Native utilizando o Expo. Ele permite que os usuários adicionem, visualizem, editem e excluam tarefas de forma prática e organizada.
 
 ## Funcionalidades
 
 - Adicionar novas tarefas
 - Listar tarefas existentes
+- Editar tarefas ao pressionar
 - Excluir tarefas concluídas
 
 ---
